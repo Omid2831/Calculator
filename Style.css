@@ -1,5 +1,7 @@
 body {
   margin-top: 10em;
+  margin-top: 5.1%;
+  background-color: linear-gradient(to bottom, #e0462e, #964141);
   display: flex;
   justify-content: center;
   height: 100vh;
