@@ -1,19 +1,18 @@
 body {
-  margin-top: 10em;
-  margin-top: 5.1%;
+  margin-top: 3em;
   background-color: linear-gradient(to bottom, #e0462e, #964141);
   display: flex;
   justify-content: center;
   height: 100vh;
-  background-color: hsl(0, 0%, 95%);
 }
 #calculator {
   font-family: Arial, sans-serif;
   background-color: hsl(0, 0%, 15%);
   border-radius: 10px;
+  width: 90%; 
   max-width: 500px;
-  max-height: 650px;
-  overflow: hidden;
+  height: 80vh; 
+  overflow: hidden; 
 }
 #display {
   width: 100%;
