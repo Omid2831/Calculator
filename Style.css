@@ -1,19 +1,20 @@
 body {
-  margin-top: 3em;
-  background-color: linear-gradient(to bottom, #e0462e, #964141);
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 100vh;
+  margin: 0;
 }
-#calculator {
-  font-family: Arial, sans-serif;
-  background-color: hsl(0, 0%, 15%);
+
+.calculator {
+  width: 300px; /* Adjust this value as needed */
+  padding: 20px;
+  background-color: #fff; /* Assuming a white background for the calculator */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  width: 90%; 
-  max-width: 500px;
-  height: 80vh; 
-  overflow: hidden; 
 }
+
 #display {
   width: 100%;
   padding: 20px;
