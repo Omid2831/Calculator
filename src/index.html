@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omid</title>
+    <link rel="stylesheet" href="/src/Style.css">
+</head>
+<body style="background-color: rgb(212, 212, 212);">
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="Keys" align="center">
+            <button onclick="appeandToDisplay('+')" class="operator-btn">+</button>
+            <button onclick="appeandToDisplay('7')">7</button>
+            <button onclick="appeandToDisplay('8')">8</button>
+            <button onclick="appeandToDisplay('9')">9</button>
+            <button onclick="appeandToDisplay('-')"  class="operator-btn">-</button>
+            <button onclick="appeandToDisplay('4')">4</button>
+            <button onclick="appeandToDisplay('5')">5</button>
+            <button onclick="appeandToDisplay('6')">6</button>
+            <button onclick="appeandToDisplay('*')"  class="operator-btn">*</button>
+            <button onclick="appeandToDisplay('1')">1</button>
+            <button onclick="appeandToDisplay('2')">2</button>
+            <button onclick="appeandToDisplay('3')">3</button>
+            <button onclick="appeandToDisplay('/')"  class="operator-btn">/</button>
+            <button onclick="appeandToDisplay('0')">0</button>
+            <button onclick="appeandToDisplay('.')" >.</button>
+            <button onclick="Calculate()">=</button>
+            <button onclick="ClearDisplay()"  class="operator-btn">C</button> 
+        </div>
+    </div>
+    
+
+    <script src="/src/script.js"></script>
+</body>
+</html>
